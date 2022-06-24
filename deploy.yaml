@@ -5,6 +5,7 @@ metadata:
   labels:
     app: somapp
   name: somapp
+  namespace: som-context
 spec:
   replicas: 1
   selector:
